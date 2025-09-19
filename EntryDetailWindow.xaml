@@ -1,0 +1,14 @@
+<Window x:Class="Your_Story.EntryDetailWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Your Story — Detay" Height="420" Width="600"
+        WindowStartupLocation="CenterOwner">
+  <ScrollViewer Padding="16">
+    <StackPanel>
+      <TextBlock x:Name="LblTime" FontSize="16" FontWeight="Bold" Margin="0,0,0,8"/>
+      <TextBlock x:Name="TxtLongRead" TextWrapping="Wrap" FontSize="15" Margin="0,0,0,8"/>
+      <TextBlock x:Name="TxtFinalRead" TextWrapping="Wrap" FontSize="14" Foreground="#555"/>
+      <TextBlock x:Name="LblCreated" Margin="0,12,0,0" FontSize="11" Foreground="#777"/>
+    </StackPanel>
+  </ScrollViewer>
+</Window>

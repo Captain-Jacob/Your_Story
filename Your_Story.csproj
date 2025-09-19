@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <!-- XAML'i biz ekleyeceğimiz için varsayılanları kapat -->
+    <EnableDefaultPageItems>false</EnableDefaultPageItems>
+    <EnableDefaultApplicationDefinition>false</EnableDefaultApplicationDefinition>
+    <!-- Compile default AÇIK kalsın (kapatmıyoruz) -->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml" />
+    <Page Include="MainWindow.xaml" />
+    <Page Include="EntryDetailWindow.xaml" />
+  </ItemGroup>
+
+  <!-- Sadece DependentUpon eklemek için Update kullan -->
+  <ItemGroup>
+    <Compile Update="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="EntryDetailWindow.xaml.cs">
+      <DependentUpon>EntryDetailWindow.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="9.0.9" />
+  </ItemGroup>
+</Project>

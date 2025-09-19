@@ -1,0 +1,2 @@
+C:\Users\yakup\Your_Story\bin\Release\net9.0-windows\win-x64\publish\Your_Story.pdb
+C:\Users\yakup\Your_Story\bin\Release\net9.0-windows\win-x64\publish\Your_Story.exe
