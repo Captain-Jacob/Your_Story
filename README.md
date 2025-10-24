@@ -12,5 +12,5 @@ so right now it best works in Turkish.
 Still, better than nothing, I guess.
 
 I don’t plan to update this project,
-but I’ll gladly accept any modification requests —
+but I’ll gladly accept any modification requests
 whether it’s for help or just for fun.
