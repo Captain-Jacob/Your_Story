@@ -2,7 +2,7 @@ Your_Story
 
 Diarly
 
-Well, well, well — adding a README might not be worth it… yet here we are.
+Well, well, well adding a README might not be worth it… yet here we are.
 
 This is a simple diary app — nothing too fancy, really.
 If I don’t forget, I’ll upload the .exe file… maybe.
